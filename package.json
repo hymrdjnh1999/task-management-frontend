@@ -21,8 +21,7 @@
     "typescript": "^3.4.5"
   },
   "scripts": {
-    "start": "cross-env PORT=3001 react-app-rewired start",
-    "start:prod": "cross-env PORT=3001 REACT_APP_BASE_URL=https://nestjs-task-management-2.onrender.com react-app-rewired start",
+    "start": "cross-env PORT=3001 REACT_APP_BASE_URL=https://nestjs-task-management-2.onrender.com react-app-rewired start",
     "build": "cross-env react-app-rewired build",
     "test": "cross-env react-app-rewired test --env=jsdom",
     "eject": "cross-env react-scripts eject"
